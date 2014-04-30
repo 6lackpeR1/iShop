@@ -1,5 +1,8 @@
 package com.blythe.domain;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Store {
 	private String name;
 	private String partnum;
